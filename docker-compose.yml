@@ -1,0 +1,36 @@
+version: '3'
+services:
+  dog-mysql:
+    build:
+      context: ./db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    restart: always
+    container_name: dog-mysql
+    image: dog-mysql
+    ports:
+      - 3306:3306
+
+  dog-redis:
+    image: redis:6.0
+    ports:
+      - 6379:6379
+    restart: always
+    command: redis-server --requirepass 123456
+    #    command: ["redis-server","--appendonly","yes","--requirepass","123456"]
+    container_name: dog-redis
+    hostname: dog-redis
+
+  dog-register:
+#    build:
+#      context: ./pig-register
+    image: nacos/nacos-server:2.0.3
+    env_file:
+      - ./env/nacos-standlone-mysql.env
+    restart: always
+    ports:
+      - 8848:8848
+    container_name: dog-register
+    hostname: dog-register
+
+
