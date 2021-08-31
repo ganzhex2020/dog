@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dog-common-mybatis" />
+        <module name="dog-upms-biz" />
+        <module name="dog-sentinel-dashboard" />
+        <module name="dog-common-feign" />
+        <module name="dog-auth" />
+        <module name="dog-common-swagger" />
+        <module name="dog-upms-api" />
+        <module name="dog-xxl-job-admin" />
+        <module name="dog-common-test" />
+        <module name="dog-common-log" />
+        <module name="dog-monitor" />
+        <module name="dog-gateway" />
+        <module name="dog-common-security" />
+        <module name="dog-common-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security" target="1.8" />
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

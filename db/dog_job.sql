@@ -1,8 +1,8 @@
 DROP DATABASE IF EXISTS `pig_job`;
 
-CREATE DATABASE  `pig_job` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE  `dog_job` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
-use `pig_job`;
+use `dog_job`;
 
 SET NAMES utf8mb4;
 

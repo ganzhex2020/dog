@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.dog4cloud.dog.common.mybatis.MybatisAutoConfiguration

@@ -4,11 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.dog4cloud</groupId>
+    <groupId>com.dog4cloud</groupId>
     <artifactId>dog</artifactId>
     <version>1.0</version>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>dog-common</module>
+        <module>dog-upms</module>
+        <module>dog-auth</module>
+        <module>dog-gateway</module>
+        <module>dog-visual</module>
+
+    </modules>
 
     <properties>
         <spring-boot.version>2.5.3</spring-boot.version>
@@ -27,6 +36,7 @@
         <nacos.version>2.0.2</nacos.version>
         <jasypt.version>2.1.0</jasypt.version>
         <swagger.fox.version>3.0.0</swagger.fox.version>
+        <swagger.annotations.version>1.5.24</swagger.annotations.version>
         <xxl-job.version>2.3.0</xxl-job.version>
     </properties>
 

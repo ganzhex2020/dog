@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dog</artifactId>
+        <groupId>com.dog4cloud</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dog-common</artifactId>
+    <packaging>pom</packaging>
+    <description>dog 公共聚合模块</description>
+    <modules>
+        <module>dog-common-security</module>
+        <module>dog-common-core</module>
+        <module>dog-common-test</module>
+        <module>dog-common-feign</module>
+        <module>dog-common-mybatis</module>
+        <module>dog-common-log</module>
+        <module>dog-common-swagger</module>
+    </modules>
+
+
+</project>

@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.dog4cloud.dog.admin.api.feign.fallback.RemoteUserServiceFallbackImpl,\
+  com.dog4cloud.dog.admin.api.feign.fallback.RemoteLogServiceFallbackImpl,\
+  com.dog4cloud.dog.admin.api.feign.fallback.RemoteTokenServiceFallbackImpl,\
+  com.dog4cloud.dog.admin.api.feign.factory.RemoteUserServiceFallbackFactory,\
+  com.dog4cloud.dog.admin.api.feign.factory.RemoteLogServiceFallbackFactory,\
+  com.dog4cloud.dog.admin.api.feign.factory.RemoteTokenServiceFallbackFactory

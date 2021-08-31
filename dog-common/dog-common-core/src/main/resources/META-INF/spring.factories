@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.dog4cloud.dog.common.core.config.JacksonConfiguration,\
+  com.dog4cloud.dog.common.core.config.RedisTemplateConfiguration,\
+  com.dog4cloud.dog.common.core.config.RestTemplateConfiguration,\
+  com.dog4cloud.dog.common.core.util.SpringContextHolder,\
+  com.dog4cloud.dog.common.core.config.WebMvcConfiguration
